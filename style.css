@@ -64,25 +64,7 @@ a {
     color: #333;
 }
 
-#notificationIcon{
-    font-size: 22px;
-    padding-left: 17px;
-    color: #333;
-}
-
-#chatIcon{
-    font-size: 22px;
-    padding-left: 17px;
-    color: #333;
-}
-
-#userIcon{
-    font-size: 22px;
-    padding-left: 17px;
-    color: #333;
-}
-
-#configIcon{
+.icon{
     font-size: 22px;
     padding-left: 17px;
     color: #333;
@@ -129,20 +111,33 @@ a {
     text-align: justify;
 } */
 
-.fotos img{
+.photoGallery img{
     /* margin-left: 13px; */
-    margin-top: 15px;
+    /* margin-top: 15px; */
     border-radius: 20px;
     object-fit: cover;
 }
 
-.fotos{
+/* .fotos{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     gap: 2px;
-    text-align: center;
     align-content: center;
+} */
+
+.firstPhotoGrid{
+    margin-left: 8px;
+    margin-bottom: 17px;
+    display: flex;
+    gap:17px;
+}
+
+.secondPhotoGrid{
+    margin-left: 8px;
+    margin-bottom: 17px;
+    display: flex;
+    gap:17px;
 }
 
 img {
