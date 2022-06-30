@@ -1,0 +1,171 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    /* padding: 50px;
+    margin: 50px;
+    margin-top: 10px; */
+}
+/*  */
+.top{
+    padding: 17px 25px;
+    text-align: left;
+    display: flex;
+    flex-wrap: nowrap;
+    /* flex-direction: column; */
+    align-items: center;
+}
+
+.top1{
+    margin-left: 15px;
+    color: black;
+    background: white;
+    border: 2px solid black;
+    border-radius: 27px;
+    font-size: 16px;
+    text-align: center;
+    height: 47px;
+    width: 77px;
+    align-content: center;
+}
+
+.top1:hover{
+    background: black;
+    transition: 0.3s;
+}
+
+.top1:hover a{
+    color: white;
+}
+
+.top1 a{
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+.userIcons{
+    cursor: pointer;
+}
+
+#iconApp{
+    font-size: 22px;
+    color: black;
+}
+
+#searchIcon{
+    padding-left: 17px;
+    padding-right: 5px;
+    color: #333;
+}
+
+#notificationIcon{
+    font-size: 22px;
+    padding-left: 17px;
+    color: #333;
+}
+
+#chatIcon{
+    font-size: 22px;
+    padding-left: 17px;
+    color: #333;
+}
+
+#userIcon{
+    font-size: 22px;
+    padding-left: 17px;
+    color: #333;
+}
+
+#configIcon{
+    font-size: 22px;
+    padding-left: 17px;
+    color: #333;
+}
+
+.top2{
+    margin-left: 10px;
+    color: black;
+    background: white;
+    border: none;
+    border-radius: 27px;
+    font-size: 16px;
+    text-align: center;
+    height: 47px;
+    width: 77px;
+    align-content: center;
+}
+
+.topnav{
+    margin-left: 15px;
+    color: #333;
+    background: rgb(236, 236, 236);
+    width: 74%;
+    height: 48px;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+}
+.topnav input{
+    border: none;
+    background: none;
+    width: 100%;
+}
+
+.topnav input:focus{
+    outline: none;
+}
+
+/* .bienvenida{
+    text-align: center;
+}
+
+.bienvenida p{
+    text-align: justify;
+} */
+
+.fotos img{
+    /* margin-left: 13px; */
+    margin-top: 15px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.fotos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 2px;
+    text-align: center;
+    align-content: center;
+}
+
+img {
+    width: 236px;
+    height: 333px;
+}
+
+.cierre{
+    text-align: center;
+    margin-top: 40px;
+    text-size-adjust: 20;
+}
+
+.cierre ul{
+    list-style: none;
+}
+
+.boton{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 75px;
+    height: 30px;
+    background: black;
+    border-radius: 10px;
+    border: 5px ridge white;
+}
