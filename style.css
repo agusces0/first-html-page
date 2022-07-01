@@ -5,17 +5,13 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
-    /* padding: 50px;
-    margin: 50px;
-    margin-top: 10px; */
 }
-/*  */
+
 .top{
     padding: 17px 25px;
     text-align: left;
     display: flex;
     flex-wrap: nowrap;
-    /* flex-direction: column; */
     align-items: center;
 }
 
@@ -103,28 +99,10 @@ a {
     outline: none;
 }
 
-/* .bienvenida{
-    text-align: center;
-}
-
-.bienvenida p{
-    text-align: justify;
-} */
-
 .photoGallery img{
-    /* margin-left: 13px; */
-    /* margin-top: 15px; */
     border-radius: 20px;
     object-fit: cover;
 }
-
-/* .fotos{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    gap: 2px;
-    align-content: center;
-} */
 
 .firstPhotoGrid{
     margin-left: 8px;
@@ -143,24 +121,4 @@ a {
 img {
     width: 236px;
     height: 333px;
-}
-
-.cierre{
-    text-align: center;
-    margin-top: 40px;
-    text-size-adjust: 20;
-}
-
-.cierre ul{
-    list-style: none;
-}
-
-.boton{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width: 75px;
-    height: 30px;
-    background: black;
-    border-radius: 10px;
-    border: 5px ridge white;
 }
